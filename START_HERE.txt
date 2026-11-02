@@ -1,0 +1,6 @@
+1. Extract the ZIP file.
+2. Open the Smart_Traffic_VANET folder in VS Code.
+3. Open Terminal and install dependencies: pip install -r requirements.txt
+4. Run: python main.py
+5. Open outputs/summary.json, performance_comparison.csv and the PNG graphs.
+6. Read docs/Project_Report.pdf for the report.

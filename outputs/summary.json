@@ -1,0 +1,49 @@
+{
+  "adaptive": {
+    "mode": "Adaptive VANET",
+    "duration_seconds": 600,
+    "vehicles_arrived": 505,
+    "vehicles_served": 432,
+    "vehicles_remaining": 73,
+    "average_wait_seconds": 49.7337962962963,
+    "average_queue_length": 44.485,
+    "maximum_queue_length": 74,
+    "packet_delivery_ratio": 0.9243119266055045,
+    "packets_sent": 3052,
+    "packets_received": 2821,
+    "average_v2i_delay_seconds": 0.049999999999999226,
+    "throughput_vehicles_per_minute": 43.2,
+    "final_ns_green_seconds": 19,
+    "final_ew_green_seconds": 35
+  },
+  "fixed_time": {
+    "mode": "Fixed-time",
+    "duration_seconds": 600,
+    "vehicles_arrived": 505,
+    "vehicles_served": 421,
+    "vehicles_remaining": 84,
+    "average_wait_seconds": 48.38242280285036,
+    "average_queue_length": 47.33,
+    "maximum_queue_length": 87,
+    "packet_delivery_ratio": 0.9258435298479792,
+    "packets_sent": 2697,
+    "packets_received": 2497,
+    "average_v2i_delay_seconds": 0.04999999999999802,
+    "throughput_vehicles_per_minute": 42.1,
+    "final_ns_green_seconds": 27,
+    "final_ew_green_seconds": 27
+  },
+  "assumptions": {
+    "arrival_rates_vehicles_per_second": {
+      "North": 0.14,
+      "South": 0.1,
+      "East": 0.4,
+      "West": 0.2
+    },
+    "communication_range_metres": 150.0,
+    "packet_loss_probability": 0.08,
+    "beacon_interval_seconds": 5,
+    "simulation_step_seconds": 1,
+    "note": "Synthetic simulation results, not field measurements."
+  }
+}
